@@ -1,7 +1,9 @@
+import { useState } from "react";
 import GameBoard from "./components/GameBoard";
 import Player from "./components/Player";
 
 function App() {
+
   return (
     <main>
       <div id="game-container">
