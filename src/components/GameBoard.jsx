@@ -25,6 +25,9 @@ const GameBoard = () => {
               <li key={colIndex}>
                 <button onClick={() => handleSelectSquare(rowIndex, colIndex)}>
                   {playerSymbol}
+
+                  <a>aaaaaaaaaa</a>
+                  {/* bunu sil  */}
                 </button>
               </li>
             ))}
